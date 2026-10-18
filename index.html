@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="love-background">
+    <span>Happy Birthday</span>
+    <span>Happy Birthday</span>
+    <span>Happy Birthday</span>
+    <span>Happy Birthday</span>
+</div>
+
+<div class="hearts-container"></div>
+
+<!-- Конверт -->
+<div class="envelope-wrapper">
+    <div id="envelope">💌</div>
+    <p class="envelope-text">Нажми на меня! 💖</p>
+</div>
+
+<!-- Модальное окно с видео MP4 -->
+<div class="video-modal" id="videoModal">
+    <div class="video-content">
+        <span class="close-video" id="closeVideo">&times;</span>
+        <!-- Укажите название вашего файла вместо video.mp4 -->
+        <video id="videoPlayer" src="video.mp4" controls playsinline></video>
+    </div>
+</div>
+
+<!-- Сюрприз -->
+<div class="surprise-overlay" id="surprise">
+    <div class="surprise-text">
+        <p class="line">Викочка , с днем рождения 🎉🎂</p>
+        <p class="line hidden">Так как мы подарили тебе просто денюшки , а это как-то банально</p>
+        <p class="line hidden small">
+            Поэтому мы хотим подарить тебе еще просто приятные воспоминания и моменты 💞
+Приятного просмотра 🥰
+        </p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
